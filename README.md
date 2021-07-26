@@ -1,5 +1,4 @@
 # DDNS functionality for Hover domains
-======================================
 
 This is a fork of a previous project that aims to remove the unnecessary cruft
 for those who want it to *just work*.
@@ -21,7 +20,7 @@ Installation
 Prerequisites:
 --------------
 - [Python 3](https://www.python.org/downloads/)
-- pip3: ```sudo apt-get install -y python3-pip```
+- pip3: ```sudo apt-get install python3-pip```
   - requests: ```sudo pip3 install --upgrade requests```
 
 Hover DNS IDs:
