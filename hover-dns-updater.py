@@ -4,9 +4,9 @@
    This script is based off one by Andrew Barilla: https://gist.github.com/andybarilla/b0dd93e71ff18303c059"""
 
 __author__ = "Mark Silva"
-__credits__ = ["Mark Silva", "Andrew Barilla", "Dan Krause"]
+__credits__ = ["Mark Silva", "Andrew Barilla", "Dan Krause", "lysabeph"]
 __license__ = "GPL"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __maintainer__ = "Mark Silva"
 __email__ = ""
 __status__ = "Alpha"
@@ -30,7 +30,7 @@ default_config = {
     # Sign into hover.com and then go to: https://www.hover.com/api/domains/YOURDOMAIN.COM/dns
     # Look for the subdomain record(s) that you want to update and put its/their id(s) here.
     'dns_ids': ['ENV'],
-    'logfile': 'ENV',
+    'logfile': 'None',
     'run-as-service': False,
     'poll-time': 600,  # 10 minutes
 }
